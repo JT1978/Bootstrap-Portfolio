@@ -1,0 +1,139 @@
+
+
+
+
+
+
+#mainNav {
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color:#9294f0;
+    transition: all .35s;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+} 
+
+#mainNav .navbar-brand {
+    color: #000000;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: #1900ff;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: #222222;
+}
+
+#mainNav .navbar-nav > li > a {
+    font-size: 15px;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#mainNav .navbar-nav > li > a.active {
+    color: #ffffff !important;
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a.active:hover {
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a,
+#mainNav .navbar-nav > li > a:focus {
+    color: #222222;
+}
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+    color: #ffffff;
+}
+
+.hero-banner {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: rgb(255, 255, 255);
+    background: url("/images/bc7.jpg");
+    background-position: center;
+}
+
+.hero-banner .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.hero-banner .header-content h1 {
+    font-size: 30px;
+}
+
+.hero-banner .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-banner .device-container .screen img {
+    border-radius: 3px;
+}
+
+.bg1 {
+    background-image: url(/images/BC5.jpg);
+}
+
+.bg2 {
+    background-image: url(/images/BC2.jpg);
+}
+
+.bg3 {
+    background-image: url(/images/BC4.jpg);
+}
+
+.bg4 {
+    background-image: url(/images/02-portfolio-4.jpg);
+}
+
+.bg5 {
+    background-image: url(/images/office.jpg);
+}
+
+.flex {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.flex-item {
+    display: flex;
+    align-items: flex-end;
+    flex-basis: calc(50% - 1em);
+    margin: .5em;
+    min-height: 150px;
+}
+
+.flex-item:first-child {
+    min-height: 300px;
+    flex-basis: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-item {
+    flex-basis: 100%;
+    }
+    .flex-item:first-child {
+    min-height: 150px;
+    }
+    .contact  {
+    flex-direction: column;
+    }
+}

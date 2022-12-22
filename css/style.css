@@ -1,20 +1,36 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(241, 232, 215);
+}
 
+a {
+    color: navy;
+    text-decoration: none;
+}
 
+p {
+    font-size: 35px;
+}
 
-
-
-#mainNav {
+#mainNav {    
     border-color: rgba(34, 34, 34, 0.05);
-    background-color:#9294f0;
+    background-color: rgba(0, 0, 0, 0.7);
     transition: all .35s;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px;
+
 } 
 
 #mainNav .navbar-brand {
-    color: #000000;
+    color: #110df1;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px;
@@ -27,7 +43,7 @@
 #mainNav .navbar-toggler {
     font-size: 12px;
     padding: 8px 10px;
-    color: #222222;
+    color: #1900ff;
 }
 
 #mainNav .navbar-nav > li > a {
@@ -38,7 +54,7 @@
 }
 
 #mainNav .navbar-nav > li > a.active {
-    color: #ffffff !important;
+    color: #000000 !important;
     background-color: transparent;
 }
 
@@ -48,12 +64,16 @@
 
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
-    color: #222222;
+    color: #1900ff;
 }
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
     color: #ffffff;
+}
+
+button {
+    color: #1900ff;
 }
 
 .hero-banner {
@@ -87,23 +107,23 @@
 }
 
 .bg1 {
-    background-image: url(/images/BC5.jpg);
+    background-color: bisque;
 }
 
 .bg2 {
-    background-image: url(/images/BC2.jpg);
+    background-color: bisque;
 }
 
 .bg3 {
-    background-image: url(/images/BC4.jpg);
+    background-color: bisque;
 }
 
 .bg4 {
-    background-image: url(/images/02-portfolio-4.jpg);
+    background-color: bisque;
 }
 
 .bg5 {
-    background-image: url(/images/office.jpg);
+    background-color: bisque;
 }
 
 .flex {

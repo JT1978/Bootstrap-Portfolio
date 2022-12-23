@@ -138,4 +138,11 @@ button {
     background-size: cover;
 }
 
+.Work {
+    background-image: url(/images/bc6.jpg);
+}
 
+.Skills {
+    background-color: #000000;
+    color: #ffffff;
+}

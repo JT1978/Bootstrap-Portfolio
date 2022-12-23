@@ -82,7 +82,7 @@ button {
     padding-top: 150px;
     padding-bottom: 100px;
     color: rgb(255, 255, 255);
-    background: url("/images/bc7.jpg");
+    background: url("../images/bc7.jpg");
     background-position: center;
 }
 

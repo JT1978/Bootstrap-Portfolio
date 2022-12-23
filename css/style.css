@@ -82,7 +82,7 @@ button {
     padding-top: 150px;
     padding-bottom: 100px;
     color: rgb(255, 255, 255);
-    background: url("./images/bc7.jpg");
+    background: url("/images/bc7.jpg");
     background-position: center;
 }
 
@@ -107,7 +107,7 @@ button {
 }
 
 .bg1 {
-    background-image: url(./images/BC5.jpg);
+    background-image: url(../images/BC5.jpg);
     height: 500px;
     width: 100%;
     background-position: center;
@@ -115,31 +115,31 @@ button {
 }
 
 .bg2 {
-    background-image: url(./images/BC4.jpg);
+    background-image: url(../images/BC4.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .bg3 {
-    background-image: url(./images/BC2.jpg);
+    background-image: url(../images/BC2.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .bg4 {
-    background-image: url(./images/office.jpg);
+    background-image: url(../images/office.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .bg5 {
-    background-image: url(./images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
+    background-image: url(../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .Work {
-    background-image: url(./images/bc6.jpg);
+    background-image: url(../images/bc6.jpg);
 }
 
 .Skills {

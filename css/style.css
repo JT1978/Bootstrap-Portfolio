@@ -107,53 +107,35 @@ button {
 }
 
 .bg1 {
-    background-color: bisque;
+    background-image: url(/images/BC5.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 .bg2 {
-    background-color: bisque;
+    background-image: url(/images/BC4.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .bg3 {
-    background-color: bisque;
+    background-image: url(/images/BC2.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .bg4 {
-    background-color: bisque;
+    background-image: url(/images/office.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .bg5 {
-    background-color: bisque;
+    background-image: url(/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.flex {
-display: flex;
-flex-direction: row;
-justify-content: center;
-flex-wrap: wrap;
-}
 
-.flex-item {
-    display: flex;
-    align-items: flex-end;
-    flex-basis: calc(50% - 1em);
-    margin: .5em;
-    min-height: 150px;
-}
-
-.flex-item:first-child {
-    min-height: 300px;
-    flex-basis: 100%;
-}
-
-@media screen and (max-width: 768px) {
-    .flex-item {
-    flex-basis: 100%;
-    }
-    .flex-item:first-child {
-    min-height: 150px;
-    }
-    .contact  {
-    flex-direction: column;
-    }
-}
